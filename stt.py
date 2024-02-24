@@ -6,8 +6,8 @@ from utils.prompts import system_prompt_anly, system_prompt_pro
 
 
 if __name__ == "__main__":
-    video_url = 'https://www.youtube.com/watch?v=wXYx6iJNqMc'
-    audio_path = download_audio(video_url, output_path='downloads', file_name='sales')
+    yt_url = 'youtube url'
+    audio_path = download_audio(yt_url, output_path='downloads', file_name='sales')
     
     transcript = transcritp_with_wisper(audio_path)
     transcript_prof = generate_corrected_transcript("gpt-4-turbo-preview", 0, system_prompt_pro, transcript)
