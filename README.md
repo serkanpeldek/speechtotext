@@ -1,7 +1,7 @@
 
 # Audio Transcription and Analysis
 
-This repository contains Python scripts for downloading audio from a YouTube video, transcribing it using OpenAI's GPT-4 Turbo, and generating corrected transcripts for both professional and analytical purposes.
+This repository contains Python scripts for downloading audio from a YouTube video, transcribing it using OpenAI's models, and generating corrected transcripts for both professional and analytical purposes.
 
 ## Setup
 
