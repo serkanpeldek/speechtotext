@@ -29,7 +29,7 @@ This repository contains Python scripts for downloading audio from a YouTube vid
    python stt.py
    ```
 
-2. The script will download audio from the specified YouTube video, transcribe it using OpenAI's GPT-4 Turbo, and generate corrected transcripts for professional and analytical purposes.
+2. The script will download audio from the specified YouTube video, transcribe it using OpenAI's model, and generate corrected transcripts for professional and analytical purposes.
 
 3. The transcripts will be saved in the `downloads` folder with filenames:
    - `sales_transcript.txt` (original transcript)
@@ -44,7 +44,7 @@ This repository contains Python scripts for downloading audio from a YouTube vid
 
 ## Acknowledgments
 
-- OpenAI for providing the GPT-4 Turbo model.
+- OpenAI Docs: https://platform.openai.com/docs/overview
 
 ## Note
 
