@@ -39,7 +39,7 @@ This repository contains Python scripts for downloading audio from a YouTube vid
 ## File Structure
 
 - `utils/`: Contains utility functions for downloading audio, file operations, OpenAI functions, and system prompts.
-- `script.py`: The main script that orchestrates the entire process.
+- `stt.py`: The main script that orchestrates the entire process.
 - `requirements.txt`: List of Python packages required for the project.
 
 ## Acknowledgments
